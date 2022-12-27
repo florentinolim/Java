@@ -1,0 +1,20 @@
+package entradadedados;
+
+import java.util.Scanner;
+
+public class ScannerIntDoubleStringChar {
+
+	Scanner sc = new Scanner(System.in);
+	
+	int y;
+	String x;
+	double z;
+	
+	x = sc.next().charAt(0);
+	System.out.println("Voce digitou: " + x);
+	sc.close();
+		
+
+	}
+
+}

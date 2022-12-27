@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class salariofunc {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num;
+		double nuhoras;
+		double vhoras;
+		double salario;
+		
+		
+		
+	}
+
+}

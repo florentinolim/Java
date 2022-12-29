@@ -15,20 +15,19 @@ public class pecas {
 		cod1 = sc.nextInt();
 		num1 = sc.nextInt();
 		val1 = sc.nextDouble();
-		
-	    cod2 = sc.nextInt();
-	    num2 = sc.nextInt();
-	    val2 = sc.nextDouble();
-	    
-	    s1 = num1 * val1;
-	    s2 = num2 * val2;
-	    
-	    total = s1 + s2;
-	    
-	    System.out.printf("Valor a pagar: %.2f%n", + total );
 
-	    
-	    sc.close();
+		cod2 = sc.nextInt();
+		num2 = sc.nextInt();
+		val2 = sc.nextDouble();
+
+		s1 = num1 * val1;
+		s2 = num2 * val2;
+
+		total = s1 + s2;
+
+		System.out.printf("Valor a pagar: %.2f%n", +total);
+
+		sc.close();
 
 	}
 
